@@ -36,16 +36,20 @@ nav {
     position: absolute;
     right:15px;
     top:10px;
+
 }
 
 input[type=search] {
-   font-size: 40px;
+   font-size: 15px;
     width:170px;
     height:30px;
 }
 
 #main-search-title {
     text-align: center;
+    position:relative;
+    left:-30px;
+    top:-30px;
 }
 
 .sub-menu-area {
@@ -74,40 +78,75 @@ input[type=search] {
     width:600px;
     height:auto;
     position: absolute;
-    top: 280px;
+    top: 260px;
 
 }
 
 
 #main-search-bar {
     position: absolute;
-    top:-40px;
-    left: 160px;
+    top:-115px;
+    left: 130px;
+    height:auto;
+
+}
+
+.right-side-container > img {
+    width:300px;
+    height:auto;
+}
+
+.item-list {
+    width:300px;
+    height:auto;
+    float:right;
+    position:relative;
+    top:240px;
+    right:90px;
+    border:1px solid #000000;
+    padding:10px;
+    text-align: left;
+
 }
 
 .dropdown-list {
     position: absolute;
-    top: 140px;
-    left: 190px;
+    top: 70px;
+    left: 160px;
+
 
 }
 
 .right-side-container {
-    float:right;
+    float:left;
     position:relative;
-    top:170px;
+    top:350px;
+    left:140px;
 
 }
 
-#main-search-bar{
+.join-now {
+    position: relative;
+    left: 215px;
+    top:-215px;
+}
+.join-now h2 {
 
+    text-shadow: 10px 10px 60px #829AF4;
+    color: #829AF4;
+    font-family: 'Prosto One', cursive;
 
 }
 
 .signup_btn {
     position:absolute;
-    top:230px;
-    left:180px;
+    top:-195px;
+    left:720px;
+}
+
+.signup_btn  img {
+    width:200px;
+    height:auto;
 }
 
 .reg-form {
@@ -130,7 +169,9 @@ input[type=search] {
 
 .signin-link {
     position: relative;
-    top:270px;
+    top:-115px;
+    left:405px;
+
 }
 nav ul li a {
     text-decoration: none;
@@ -162,6 +203,12 @@ nav ul li :hover {
 .all-cases h1 {
     position: relative;
     top:180px;
+}
+
+.switch-btn {
+    position: relative;
+    top:65px;
+    left:300px;
 }
 
 .case-pics-row-1 {
@@ -196,6 +243,41 @@ nav ul li :hover {
     -webkit-box-shadow: 3px 3px 5px #000;
     box-shadow: 10px 3px 5px #000;
     -webkit-backface-visibility: hidden;
+}
+
+.wish-items {
+    position: relative;
+    top:150px;
+    text-align: left;
+    left:470px;
+
+}
+
+.benefits {
+    position: relative;
+    top:370px;
+    left: 20px;
+}
+
+.benefits h5,.benefits h3 {
+    text-align: left;
+}
+
+.detail-image > h4 {
+    position: relative;
+    top:560px;
+    right:355px;
+}
+
+.login-help {
+    position: relative;
+    top:520px;
+    left: 25px;
+}
+
+.detail-info h3 {
+    position: relative;
+    top:-15px;
 }
 
 .detail-image img {
